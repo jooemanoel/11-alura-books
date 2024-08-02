@@ -58,3 +58,19 @@
     background-clip: text;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-size: 1.875rem;
+    }
+
+    .container__titulo {
+        font-weight: 300;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+}

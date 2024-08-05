@@ -24,9 +24,7 @@ hr {
     }
 
     .lista-rodape {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        display: block;
         flex: 1;
     }
 
@@ -47,5 +45,16 @@ hr {
         color: car(--cinza);
         text-decoration: none;
         margin-left: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodape {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1rem;
+    }
+
+    .rodape {
+        padding: 3rem 0;
     }
 }

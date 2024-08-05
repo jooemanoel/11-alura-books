@@ -80,7 +80,7 @@
     }
 
     .swiper-pagination {
-        margin: 2rem 0 3rem 0;
+        margin: 1rem 0;
     }
 
     .swiper {
@@ -96,5 +96,30 @@
     .card {
         width: 60%;
         margin: 2rem auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 5rem 2rem 5rem;
+    }
+
+    .swiper-pagination {
+        margin: 1rem 0;
+    }
+
+    .descricao__titulo {
+        font-size: 2rem;
+    }
+
+    .descricao__texto {
+        font-size: 1rem;
+    }
+
+    .card {
+        margin-left: 3rem;
     }
 }

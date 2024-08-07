@@ -67,10 +67,6 @@
     text-transform: uppercase;
 }
 
-.container__botao {
-    display: none;
-}
-
 .container__titulo {
     display: none;
 }
